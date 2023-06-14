@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  transition: 1s ease-in-out;
+}
+body {
+  background: linear-gradient(90deg, hsl(217, 28%, 15%), hsl(218, 28%, 13%));
+}
+body::-webkit-scrollbar{
+  width:.5em
+}
+body::-webkit-scrollbar-track{
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+  background-color:#fff;
+}
+.welcome {
+  background: url(./assets/banner-bg.svg) no-repeat center center/cover;
+}
+
+
